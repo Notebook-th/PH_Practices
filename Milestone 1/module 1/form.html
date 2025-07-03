@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Daaily Routine</h2>
+    <h4><b><p id="datetime"></p></b></h4>
+    08.00 - 09.00 <input type="text" placeholder="Get up + Fresh"><br><br>
+    09.00 - 09.30 <input type="text"  placeholder="Breakfast"><br><br>
+    09.30 - 10.30 <input type="text"  placeholder="First Session"><br><br>
+    10.30 - 10.45 <input type="text"  placeholder="Rest"><br><br>
+    10.45 - 11.45 <input type="text"  placeholder="2nd Session"><br><br>
+    11.45 - 12.00 <input type="text"  placeholder="Rest"><br><br>
+    12.00 - 01.00 <input type="text"  placeholder="3rd Session"><br><br>
+    01.00 - 03.00 <input type="text"  placeholder="Break"><br><br>
+    03.00 - 03.45 <input type="text"  placeholder="4th Session"><br><br>
+    03.45 - 04.00 <input type="text"  placeholder="Rest"><br><br>
+    04.00 - 04.45 <input type="text"  placeholder="5th Session"><br><br>
+    04.00 - 05.00 <input type="text"  placeholder="Namaj"><br><br>
+    05.00 - 06.15 <input type="text"  placeholder="Reading Book"><br><br>
+    06.15 - 07.15  <input type="text"  placeholder="Free Time"><br><br>
+    07.15 - 08.00 <input type="text"  placeholder="6th Session"><br><br>
+    08.00 - 08.15 <input type="text"  placeholder="Rest"><br><br>
+    08.15 - 09.00 <input type="text"  placeholder="7th Session"><br><br>
+    09.00 - 09.15 <input type="text"  placeholder="Namaj"><br><br>
+    09.15 - 10.00 <input type="text"  placeholder="8th Session"><br><br>
+    10.00 - 11.00 <input type="text"  placeholder="Dinner"><br><br>
+    11.00 - 12.00 <input type="text"  placeholder="9th Session"><br><br>
+    12.00 - 12.15 <input type="text"  placeholder="Rest"><br><br>
+    12.15 - 12.45 <input type="text"  placeholder="10th Session"><br><br>
+    12.45 - <input type="text"  placeholder="Prepare to sleep"><br><br>
+
+
+
+
+
+
+
+
+    <center><button onclick="downloadPageAsImage()">Done</button></center>
+
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script>
+        function downloadPageAsImage() {
+            html2canvas(document.body).then(function(canvas) {
+                let link = document.createElement('a');
+                link.download = 'page-screenshot.png';
+                link.href = canvas.toDataURL();
+                link.click();
+            });
+        }
+
+        function updateDateTime() {
+      const now = new Date();
+      const formatted = now.toLocaleString(); // Formats date and time nicely
+      document.getElementById("datetime").textContent = formatted;
+    }
+
+    // Update every second
+    setInterval(updateDateTime, 1000);
+
+    // Call it once immediately so it doesn't wait 1 second
+    updateDateTime();
+    </script>
+</body>
+</html>
