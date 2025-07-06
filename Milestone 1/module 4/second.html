@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form more parts</title>
+    <style>
+        form label {
+            display: block;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>practice form</h2>
+            <form class="frm">
+                <label for="name">Your name</label>
+                <input type="text"><br><br>
+                <label for="email">Your email</label>
+                <input type="text"> <br><br>
+                <label for="address">Your address</label>
+                <input type="text"> <br><br>
+                <label for="phone">Your phone no</label>
+                <input type="text"> <br><br>
+                <fieldset>
+                    <legend>Your actual infos </legend>
+
+                    <input type="radio" name="infos" id="name">
+                    <label for="name">name</label>
+                    <input type="radio" name="infos" id="address">
+                    <label for="address">address</label>
+                    <input type="radio" name="infos" id="email">
+                    <label for="email">Email</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What to do</legend>
+                    <input type="checkbox" name="to_do" id="sleep">
+                    <label for="sleep">sleep</label>
+                    <input type="checkbox" name="to_do" id="Gaming">
+                    <label for="Gaming">Gaming</label>
+                    <input type="checkbox" name="to_do" id="Skill_dev">
+                    <label for="Skill_dev">Skill_dev</label>
+                    <input type="checkbox" name="to_do" id="Movie">
+                    <label for="Movie">Movie</label>
+                    <input type="checkbox" name="to_do" id="Read">
+                    <label for="Read">Read</label>
+                    <input type="checkbox" name="to_do" id="Nothing">
+                    <label for="Nothing">Nothing</label>
+                    <textarea cols="60" rows="20" name="" id="">text</textarea>
+                </fieldset>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
