@@ -1,0 +1,39 @@
+body{
+    max-width: 1100px;
+    margin: o auto;
+}
+
+.card:hover{
+    background-color: rgb(23, 141, 244);
+}
+.card{
+    width: 300px;
+    border: 2px solid rebeccapurple;
+    border-radius: 18px;
+    padding: 10px;
+    box-shadow: 12px 12px 7px rgb(22, 161, 122);
+    text-align: left;
+}
+.card h5{
+    font-size: 23px;
+    /* text-align: center; */
+}
+.card button{
+    background-color: green;
+    padding: 22px;
+    font-size: larger;
+    border-radius: 33px;
+    cursor: crosshair;
+}
+.card img{
+    width: 100%;
+    border-radius: 16px;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card-section{
+    text-align: center;
+}
