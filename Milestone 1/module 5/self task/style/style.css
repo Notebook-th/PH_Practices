@@ -1,0 +1,206 @@
+.img-container{
+    height: 600px;
+    width: 1320px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 140px ;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img-text{ 
+    color: white;
+}
+
+.img-text h5{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 172px;
+    margin-bottom: 0;
+}
+.img-text h1{
+    font-size: 72px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 172px;
+}
+.scnd-part{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+.nxt-text h1{
+    color: #ff0000;
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.nxt-text h6{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 48px ;
+    margin-bottom: 0;
+}
+.nxt-text h3{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.wlcm-msg{    
+    height: 600px;
+    width: 1320px;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(../images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    margin: 120px auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.wlcm-description h1{
+    color: white;
+    letter-spacing: 11%;
+    margin-left: 126px;
+    font-size: 64px;
+    margin-bottom: 0;
+
+}
+.wlcm-description p{
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 126px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.year{
+    width: 319.83px;
+    height: 464.66px;
+    margin-left: 100px ;
+    background-color: transparent;
+}
+
+.wlcm-description button{
+    color: white;
+   margin-top:  48px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 158px;
+    background: transparent;
+}
+ .invitation-card{
+    height:482px;
+    width: 1320px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.2), rgb(232, 225, 225, 0));
+    background-size: cover;
+    background-position: center;
+    margin-left: 140px ;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+.infos span{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.infos p{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    
+}
+.infos button{
+   height: 56px;
+   width: 187px;
+   color: #efeaea;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: #ff0000;
+   border-style: none;
+   border-radius: 8px;
+   margin-top: 48px;
+}
+.msgs{
+    height:482px;
+    width: 1320px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 140px ;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+.left-col, .cent-col, .right-col{
+    flex:1;
+    text-align: center;
+
+}
+.left-col{
+    text-align: left;
+}
+
+.left-col h3{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.left-col h1{
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.left-col p{
+    font-size: 20px ;
+    color: rgba(7, 2, 17, 0.6);
+}
+.crcl {
+  width:364px;             
+  height:364px;
+  border-radius: 50%;      
+  border: 15px solid #ff4b2b; 
+  padding: 30px;      
+}
+.right-col{
+    text-align: left;
+    margin-left: 118px;
+}
+.right-col h1{
+    font-size: 48px;
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.right-col p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 43px;
+}
+.right-col img{
+    height: 140px;
+    width: 140px;
+}
