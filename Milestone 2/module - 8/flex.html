@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible flex</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 17px;
+        }
+        .box{
+            background-color: cornflowerblue;
+            padding: 20px;
+            border-radius: 90px;
+            margin-bottom: 10px;
+            /* margin-left: 40px; */
+        }
+        .container2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item{
+            background-color: aqua;
+            width: 300px;
+            height: 100px;
+            border: 2px solid red;
+        }
+
+        @media screen and (max-width:576px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>responsive flex</h2>
+    <div class="container">
+        <div class="box">
+            <h2>1st box</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tenetur in impedit possimus vero quo sapiente eveniet, quae quasi rerum modi illo, voluptatibus animi reiciendis? Ipsum consequatur assumenda reprehenderit fuga.</p>
+        </div>
+        <div class="box">
+            <h2>2nd box</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam neque illum ipsam alias repellendus aliquid, debitis quod laborum hic iste dolores, quas voluptates nulla sed ex eligendi praesentium reprehenderit!</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-9</div>
+        <div class="item">item-10</div>
+        <div class="item">item-11</div>
+        <div class="item">item-12</div>
+        <div class="item">item-13</div>
+        <div class="item">item-14</div>
+        <div class="item">item-15</div>
+        <div class="item">item-16</div>
+        <div class="item">item-17</div>
+        <div class="item">item-18</div>
+        <div class="item">item-19</div>
+        <div class="item">item-20</div>
+        <div class="item">item-21</div>
+        <div class="item">item-22</div>
+        <div class="item">item-23</div>
+        <div class="item">item-24</div>
+        <div class="item">item-25</div>
+        <div class="item">item-26</div>
+        <div class="item">item-27</div>
+        <div class="item">item-28</div>
+        <div class="item">item-29</div>
+        <div class="item">item-30</div>
+    </div>
+</body>
+</html>
