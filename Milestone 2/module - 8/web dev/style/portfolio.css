@@ -213,3 +213,10 @@ input[type="text"], footer textarea{
     width: calc(100% - 40px);
     }
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+.banner{
+    flex-direction: column;
+    }
+}
+
