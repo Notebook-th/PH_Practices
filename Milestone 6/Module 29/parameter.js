@@ -9,3 +9,9 @@ function mul (n3,n4){
     console.log(res)
 }
 mul(2,3)
+
+function fullname (first = '', last = '' ){
+    const name = first + ' ' + last;
+    console.log(name);
+}
+fullname('twaki', '')
