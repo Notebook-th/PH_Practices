@@ -16,7 +16,12 @@ const sqr = numbers.map(num => num * num)
 const friends = ['Twaki', 'Nuzhat', 'hasan', 'tabassum']
 
 const nameLength = friends.map(name => name.length)
+const first = friends.map(name => name[0].toUpperCase())
+const res = numbers.map((num, index)=> {
+    console.log(num*index)
+})
 console.log(double);
 console.log(five);
 console.log(sqr);
 console.log(nameLength);
+console.log(first);
